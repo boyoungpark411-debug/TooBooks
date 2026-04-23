@@ -23,7 +23,7 @@ document.querySelectorAll('.btnDetail').forEach(item => {
         document.querySelector('.modalHarga').innerHTML = harga;
 
         // PERBAIKAN DI SINI
-        const nohp = '629635807107';
+        const nohp = '6289635807107';
         // Menggunakan backtick (`) dan encodeURIComponent agar link valid
         let teksPesan = `Halo Bang, saya mau pesan produk ini: ${judul}. Link gambar: ${gambar}`;
         let linkWA = `https://api.whatsapp.com/send?phone=${nohp}&text=${encodeURIComponent(teksPesan)}`;
