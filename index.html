@@ -7,17 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     
     <style>
-        /* Pengaturan Gambar */
         .card-img-top { height: 200px; object-fit: cover; }
-        
-        /* Smooth Scroll */
         html { scroll-behavior: smooth; }
-        
-        /* Efek Hover */
         .card { transition: all 0.3s ease; }
         .card:hover { transform: translateY(-10px); box-shadow: 0 1rem 3rem rgba(0,0,0,0.175) !important; }
         
-        /* Styling Tombol WhatsApp */
         .wa-float {
             position: fixed;
             bottom: 25px;
@@ -39,7 +33,6 @@
             transform: scale(1.1);
         }
         
-        /* Responsive */
         @media (max-width: 767px) {
             .p-5 { padding: 1rem !important; }
             .w-50 { width: 90% !important; }
@@ -61,7 +54,7 @@
         </nav>
 
         <div class="px-4 mb-4">
-            <img src="images/banner.png" class="w-100 rounded-3" />
+            <img src="images/banner.png" class="w-100 rounded-3" alt="Banner" />
         </div>
 
         <h3 class="text-center" id="collections">Our Collections</h3>
@@ -69,64 +62,30 @@
 
         <div class="row row-cols-md-3 row-cols-2 gx-5 p-5">
             <div class="col mb-5">
-    <div class="card shadow position-relative">
-        <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
-        <img src="images/janji.jpg" class="card-img-top" />
-        <div class="card-body">
-            <h5 class="card-title">Janji</h5>
-            <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini. Klik detail untuk lihat sinopsis dan kondisinya.</p>
-        </div>
-        <div class="d-none deskripsi "><p class="fw-bold fst-italic">Novel "Janji" karya Tere Liye mengisahkan perjalanan hidup Bahar, seorang pria yang dikenal nakal dan penuh masalah sejak kecil di sekolah agama. Cerita ini berfokus pada perjuangan Bahar memenuhi janji masa lalunya, yang membawanya mengembara melintasi berbagai konflik berat, hingga menemukan arti kebahagiaan, pengorbanan, dan tanggung jawab.Untuk Menayakan kondisi buku bisa chat admin terlebih dahulu</p></div>
-        <div class="card-footer d-md-flex">
-            <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
-            <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 65,000,00</span>
-        </div>
-    </div>
-</div>
+                <div class="card shadow position-relative">
+                    <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
+                    <img src="images/janji.jpg" class="card-img-top" alt="Janji" />
+                    <div class="card-body">
+                        <h5 class="card-title">Janji</h5>
+                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini.</p>
+                    </div>
+                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Novel "Janji" karya Tere Liye mengisahkan perjalanan hidup Bahar...</p></div>
+                    <div class="card-footer d-md-flex">
+                        <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
+                        <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 65,000,00</span>
+                    </div>
+                </div>
+            </div>
 
-<div class="col mb-5">
-    <div class="card shadow position-relative">
-        <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
-        <img src="images/showman.jpg" class="card-img-top" />
-        <div class="card-body">
-            <h5 class="card-title">Black Showman</h5>
-            <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini. Klik detail untuk lihat sinopsis.</p>
-        </div>
-        <div class="d-none deskripsi"><p class="fw-bold fst-italic">"Black Showman dan Pembunuhan di Kota Tak Bernama" adalah novel misteri karya Keigo Higashino tentang terbunuhnya Kamio Eiichi, mantan guru SMP yang disegani, di halaman rumahnya. Putrinya, Mayo, dan pamannya yang eksentrik, Takeshi (mantan pesulap), menyelidiki kasus ini, mencurigai mantan murid korban saat reuni. Berlatar saat pandemi Covid-19, cerita ini menonjolkan aksi detektif tak biasa untuk mengungkap pembunuh yang licik.</p></div>
-        <div class="card-footer d-md-flex">
-            <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
-            <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 80,000,00</span>
-        </div>
-    </div>
-</div>
-
-<div class="col mb-5">
-    <div class="card shadow position-relative">
-        <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
-        <img src="images/malam.jpg" class="card-img-top" />
-        <div class="card-body">
-            <h5 class="card-title">Malam Tanpa Akhir</h5>
-            <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini. Klik detail untuk lihat sinopsis.</p>
-        </div>
-        <div class="d-none deskripsi"><p class="fw-bold fst-italic">"Malam Tanpa Akhir" (Endless Night) adalah novel misteri karya Agatha Christie yang mengisahkan Michael Rogers, seorang pria ambisius yang jatuh cinta pada Ellie, wanita kaya, dan membangun rumah impian di lahan terkutuk bernama Gipsy's Acre. Meskipun diperingatkan tentang kutukan maut, mereka tetap tinggal, namun kebahagiaan mereka berubah menjadi mimpi buruk penuh pengkhianatan dan pembunuhan.</p></div>
-        <div class="card-footer d-md-flex">
-            <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
-            <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 20,000,00</span>
-        </div>
-    </div>
-</div>
-
-            
-            
             <div class="col mb-5">
                 <div class="card shadow position-relative">
                     <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
-                    <img src="images/laut.jpg" class="card-img-top" />
+                    <img src="images/laut.jpg" class="card-img-top"  alt="Laut" />
                     <div class="card-body">
-                        <h5 class="card-title">Laut Bercerita</h5>
-                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini. Klik detail untuk lihat sinopsis.</p>
+                        <h5 class="card-title">Black Showman</h5>
+                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini.</p>
                     </div>
-                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">"Laut Bercerita" karya Leila S. Chudori adalah novel fiksi sejarah yang mengisahkan perjuangan dan tragedi yang dialami kelompok aktivis mahasiswa pada masa Orde Baru (1998). Cerita berfokus pada Biru Laut, seorang mahasiswa yang disekap dan disiksa karena menentang rezim, serta dampaknya terhadap keluarga yang kehilangan dan mencari kejelasan.</p></div>
+                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">"Black Showman dan Pembunuhan di Kota Tak Bernama" adalah novel misteri...</p></div>
                     <div class="card-footer d-md-flex">
                         <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
                         <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 80,000,00</span>
@@ -137,12 +96,44 @@
             <div class="col mb-5">
                 <div class="card shadow position-relative">
                     <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
-                    <img src="images/dompet.jpg" class="card-img-top" />
+                    <img src="images/malam.jpg" class="card-img-top" alt="Malam Tanpa Akhir" />
+                    <div class="card-body">
+                        <h5 class="card-title">Malam Tanpa Akhir</h5>
+                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini.</p>
+                    </div>
+                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">"Malam Tanpa Akhir" (Endless Night) adalah novel misteri karya Agatha Christie...</p></div>
+                    <div class="card-footer d-md-flex">
+                        <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
+                        <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 20,000,00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-5">
+                <div class="card shadow position-relative">
+                    <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
+                    <img src="images/laut.jpg" class="card-img-top" alt="Laut Bercerita" />
+                    <div class="card-body">
+                        <h5 class="card-title">Laut Bercerita</h5>
+                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini.</p>
+                    </div>
+                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">"Laut Bercerita" karya Leila S. Chudori adalah novel fiksi sejarah...</p></div>
+                    <div class="card-footer d-md-flex">
+                        <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
+                        <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 80,000,00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-5">
+                <div class="card shadow position-relative">
+                    <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
+                    <img src="images/dompet.jpg" class="card-img-top" alt="Dompet Ayah Sepatu Ibu" />
                     <div class="card-body">
                         <h5 class="card-title">Dompet Ayah Sepatu Ibu</h5>
-                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini. Klik detail untuk lihat sinopsis.</p>
+                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini.</p>
                     </div>
-                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Dompet Ayah Sepatu Ibu karya J.S. Khairen adalah novel inspiratif tentang perjuangan Zenna dan Asrul, dua anak dari lereng Gunung Singgalang dan Marapi, Sumatera Barat, yang hidup dalam kemiskinan ekstrem. Mereka berjuang keras melalui pendidikan dan kerja mandiri untuk mengubah nasib keluarga, menghadapi berbagai rintangan hidup, dan akhirnya bertemu di bangku kuliah</p></div>
+                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Dompet Ayah Sepatu Ibu karya J.S. Khairen adalah novel inspiratif...</p></div>
                     <div class="card-footer d-md-flex">
                         <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
                         <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 55,000,00</span>
@@ -153,12 +144,12 @@
             <div class="col mb-5">
                 <div class="card shadow position-relative">
                     <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
-                    <img src="images/mie.jpg" class="card-img-top" />
+                    <img src="images/mie.jpg" class="card-img-top" alt="Seporsi Mie Ayam" />
                     <div class="card-body">
                         <h5 class="card-title">Seporsi Mie Ayam</h5>
-                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini. Klik detail untuk lihat sinopsis.</p>
+                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini.</p>
                     </div>
-                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Seporsi Mie Ayam Sebelum Mati karya Brian Khrisna (2025) adalah novel slice-of-life tentang Ale (37), pria depresi yang berencana bunuh diri akibat perundungan, kesepian, dan konflik hidup. Sebelum mengakhiri hidup, ia ingin makan mie ayam langganannya, namun perjalanan tersebut mempertemukannya dengan orang-orang baru yang mengubah pandangan hidupnya.</p></div>
+                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Seporsi Mie Ayam Sebelum Mati karya Brian Khrisna (2025)...</p></div>
                     <div class="card-footer d-md-flex">
                         <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
                         <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 55,000,00</span>
@@ -169,12 +160,12 @@
             <div class="col mb-5">
                 <div class="card shadow position-relative">
                     <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
-                    <img src="images/x.jpg" class="card-img-top" />
+                    <img src="images/x.jpg" class="card-img-top" alt="Kesetiaan Mr X" />
                     <div class="card-body">
                         <h5 class="card-title">Kesetiaan Mr X</h5>
-                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini. Klik detail untuk lihat sinopsis.</p>
+                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini.</p>
                     </div>
-                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Novel ini mengisahkan Yasuko Hanaoka, seorang ibu tunggal yang membunuh mantan suaminya, Shinji Togashi, demi melindungi diri dan putrinya dari pemerasan. Tetsuya Ishigami, tetangga Yasuko yang berprofesi sebagai guru matematika dan diam-diam mencintainya, menawarkan diri untuk menutupi kejahatan tersebut.</p></div>
+                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Novel ini mengisahkan Yasuko Hanaoka...</p></div>
                     <div class="card-footer d-md-flex">
                         <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
                         <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 55,000,00</span>
@@ -185,13 +176,12 @@
             <div class="col mb-5">
                 <div class="card shadow position-relative">
                     <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
-                    <img src="images/kamu.jpg" class="card-img-top" />
+                    <img src="images/kamu.jpg" class="card-img-top" alt="Tentang Kamu" />
                     <div class="card-body">
                         <h5 class="card-title">Tentang Kamu</h5>
-                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini. Klik detail untuk lihat sinopsis.</p>
+                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini.</p>
                     </div>
-                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Novel "Tentang Kamu" karya Tere Liye mengisahkan perjalanan Zaman Zulkarnaen, pengacara muda asal Indonesia yang bekerja di London, untuk mengungkap misteri warisan senilai 
- triliun lebih milik Sri Ningsih, seorang perempuan paruh baya yang meninggal di panti jompo di Paris. Zaman harus menelusuri masa lalu Sri yang luar biasa dari Pulau Bungin, Jawa, hingga kehidupan keras di luar negeri, yang mengungkap kisah tentang keteguhan, kehilangan, memaafkan, dan persahabatan.</p></div>
+                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Novel "Tentang Kamu" karya Tere Liye...</p></div>
                     <div class="card-footer d-md-flex">
                         <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
                         <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 70,000,00</span>
@@ -202,12 +192,12 @@
             <div class="col mb-5">
                 <div class="card shadow position-relative">
                     <span class="badge bg-danger position-absolute top-0 start-0 m-2">Ori 100%</span>
-                    <img src="images/animal.jpg" class="card-img-top" />
+                    <img src="images/animal.jpg" class="card-img-top" alt="Animal Farm" />
                     <div class="card-body">
                         <h5 class="card-title">Animal Farm</h5>
-                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini. Klik detail untuk lihat sinopsis.</p>
+                        <p class="card-text fst-italic">Lengkapi koleksimu dengan buku preloved ini.</p>
                     </div>
-                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Animal Farm (Peternakan Hewan) karya George Orwell adalah alegori satiris tentang pemberontakan hewan di Manor Farm melawan pemilik manusia mereka, Pak Jones, untuk menciptakan masyarakat setara. Dipimpin babi Napoleon dan Snowball, mereka menerapkan "Binatangisme", namun perlahan babi-babi mengambil alih kekuasaan, menjadi korup, dan menciptakan rezim totaliter yang lebih buruk dari manusia.</p></div>
+                    <div class="d-none deskripsi"><p class="fw-bold fst-italic">Animal Farm (Peternakan Hewan) karya George Orwell...</p></div>
                     <div class="card-footer d-md-flex">
                         <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
                         <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 35,000,00</span>
@@ -219,14 +209,14 @@
         <div id="tentang" class="px-4 py-4 bg-secondary text-center">
             <div class="mx-auto w-75">
                 <h3 class="text-white">Tentang Kami</h3>
-                <p class="text-center text-white"><img src="images/about-us.png" align="right" style="width: 100px; height: auto" class="me-3 mb-3"/> Ini adalah website tempat buku-buku preloved terpercaya, semua buku yang ada disini dijamin semuanya ori 100% semuanya ori GPU.</p>
+                <p class="text-center text-white"><img src="images/about-us.png" align="right" style="width: 100px; height: auto" class="me-3 mb-3" alt="About Us"/> Ini adalah website tempat buku-buku preloved terpercaya.</p>
             </div>
         </div>
 
         <div id="order" class="px-4 py-4 bg-light text-center">
             <div class="mx-auto w-75">
                 <h3>Cara Order</h3>
-                <p class="text-center"><img src="images/order.png" align="right" style="width: 100px; height: auto" class="ms-3 mb-3"/>Untuk kalian yang bingung cara order di website ini silahkan ikuti step by stepnya, pertama kalian pilih dulu buku mana yang ingin kalian beli kedua, klik bagian detail di bawah cover bukunya ketiga, klik beli produk ini keempat, setelah mengklik beli produk ini kamu akan otomatis di arahkan ke wa, untuk order. Happy Shopping^^ </p>
+                <p class="text-center"><img src="images/order.png" align="right" style="width: 100px; height: auto" class="ms-3 mb-3" alt="Cara Order"/>Untuk kalian yang bingung cara order...</p>
             </div>
         </div>
 
